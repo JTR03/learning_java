@@ -5,11 +5,13 @@ public class variable {
        char firstInitial = 'J';
        char lastInitial = 'T';
        boolean perfectAttendance = true;
+       String fullName = "Jonathan Tshikala";
        
        System.out.println(age);
        System.out.println(GPA);
        System.out.println(firstInitial);
        System.out.println(lastInitial);
        System.out.println(perfectAttendance);
+       System.out.println(fullName);
    } 
 }

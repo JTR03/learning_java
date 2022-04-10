@@ -1,3 +1,5 @@
+
+
 public class variable {
    public static void main(String[] args) {
        int age = 15;
@@ -6,6 +8,8 @@ public class variable {
        char lastInitial = 'T';
        boolean perfectAttendance = true;
        String fullName = "Jonathan Tshikala";
+       char firstInit = fullName.charAt(0);
+       char lastInit = fullName.charAt(9);
        
        System.out.println(age);
        System.out.println(GPA);
@@ -13,5 +17,7 @@ public class variable {
        System.out.println(lastInitial);
        System.out.println(perfectAttendance);
        System.out.println(fullName);
+       System.out.println(firstInit);
+       System.out.println(lastInit);
    } 
 }
